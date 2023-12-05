@@ -2,7 +2,7 @@
  * Page d'acceuil home.html
  */
 
- /* Main Section */
+/* Main Section */
 .home-main {
     height: 100vh;
     background-image: url('../images/main.jpeg');
@@ -106,6 +106,7 @@
 .card-team-avatar {
     /* code provisoire 
      intégrer les images de profil des membres de l'équipe */
+     
     width: 150px;
     height: 150px;
     background-color: grey;
@@ -114,8 +115,14 @@
 
 /* Destinations Section */
 #list-destination {
-    /* TODO: Se référer aux Maquettes */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
 }
+
 
 #destinations {
     background-image: url('../images/bg.jpeg');
@@ -232,6 +239,7 @@ label {
 
 /* Ajoutez ici des règles CSS pour rendre la page responsive */
 @media screen and (max-width: 768px) {
+
     /** Page d'accueil */
     .home-content {
         font-size: 0.8em;

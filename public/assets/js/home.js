@@ -6,6 +6,7 @@ console.log('Tableau des membres de l\'équipe : ', team);
 // Appel de la fonction getDestinations
 // getDestinations(destinations);
 
+
 // Affichage des membres de l'équipe dans la section #about de la page d'accueil
 // Appel de la fonction getTeam
 getTeam(team);
